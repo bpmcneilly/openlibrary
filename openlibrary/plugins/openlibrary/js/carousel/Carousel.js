@@ -13,7 +13,7 @@ const Carousel = {
      * @param {Number} loadMore.limit of new items to receive
      * @param {String} loadMore.pageMode of page e.g. `offset`
      */
-    add: function(selector, a, b, c, d, e, f, loadMore) {
+    add: function(selector, a, b, c, d, e, f, loadMore, title) {
         var responsive_settings, availabilityStatuses, addWork, url, default_limit;
 
         a = a || 6;
