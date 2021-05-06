@@ -73,6 +73,9 @@ const Carousel = {
             responsive: responsive_settings
         });
 
+        let listboxSelector = selector + ' [role="listbox"]';
+        $(listboxSelector).attr('aria-label',title);
+
         availabilityStatuses = {
             open: {cls: 'cta-btn--available', cta: 'Read'},
             borrow_available: {cls: 'cta-btn--available', cta: 'Borrow'},
